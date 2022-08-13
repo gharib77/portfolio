@@ -1,0 +1,87 @@
+*{
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  -moz-border-sizing:border-box;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Poppins', sans-serif;
+
+}
+
+.hero{
+  background-image: url(../images/company.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  color:white;
+  position: relative;
+ 
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;  */
+
+}
+.row{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.hero h1{
+  animation: titre ease 2.5s;
+}
+@keyframes titre{
+  0%{
+    opacity: 0;
+    transform: translate(0px,350px);
+  }
+  100%{
+    opacity: 1;
+    transform: translate(0px,0px);
+  }
+}
+
+@media (max-width:767px){
+  .hero h1,h3{
+    color:red;
+   font-size: 22px;
+   font-weight: 500;
+   letter-spacing: 1px;
+  }
+}
+
+
+/* @media (max-width:767px){
+  header .main{
+    flex-direction: column;
+  }
+  .visible-xs{
+    display: block !important;
+    color:blue
+  }
+
+}
+@media (min-width:768px){
+  .container{
+    width: 750px;
+  }
+  
+}
+@media (min-width:992px){
+  .container{
+    width: 970px;
+  }
+
+
+}
+@media (min-width:1200px){
+  .container{
+    width: 1070px;
+  }
+
+
+} */
+

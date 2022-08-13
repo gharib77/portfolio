@@ -1,0 +1,57 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  text-decoration: none;
+  list-style: none;
+}
+html{
+  scroll-behavior: smooth;
+}
+
+.container{
+  width: 80%;
+  margin: 0 auto;
+}
+header{
+  background: rgba(0,0,0,0.8);
+  padding: 20px 0;
+  position: fixed;
+  width: 100%;
+  /* left:0;
+  top:0;  */
+}
+header .container{
+  display: flex;
+  justify-content: space-between;
+}
+header .container nav ul li{
+  display: inline-block;
+  margin-right: 15px;
+}
+header .container nav ul a{
+  color: white;
+  font-size: 18px;
+}
+.sect1 img{
+  max-width: 100%;
+  vertical-align: top;
+}
+.sect1{
+  /* height: auto; */
+
+}
+.sect2,.sect3{
+  height: 100vh;
+   display: flex;
+  align-items: center; 
+}
+
+
+.sect2{
+  background-color: aquamarine;
+}
+.sect3{
+  background-color: sandybrown;
+}

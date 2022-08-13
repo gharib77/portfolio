@@ -1,0 +1,38 @@
+*,*::before,*::after{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: sans-serif;
+}
+.navbar-brand img{
+  height: 3rem;
+}
+.navbar{
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+#leftpart{
+  background-color: aquamarine;
+  border-radius: 20px;
+  padding: 25px;
+}
+.elements{
+  padding: 70px 0px;
+}
+.elements img{
+  border-radius: 50%;
+  width: 150px;
+}
+.elements p{
+  font-size: 1.2em;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  overflow: hidden;
+  padding-right: 20px;
+  
+}
